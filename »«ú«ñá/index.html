@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Получение прогноза погоды</title>
+</head>
+<style>
+
+    h1{
+        color: rgb(0, 0, 0);
+    }
+
+    span {
+        color: rgb(31, 105, 255);
+        font-size: 28px;
+    }
+    .container{
+        background-color: rgba(89, 150, 204, 0.664);
+        display: inline-block;
+        padding: 20px 40px;
+        border-radius: 20px;
+        border: 2px solid rgba(36, 32, 255, 0.36);
+    }
+    .center{
+       
+        justify-content: center;
+        align-content: center;
+        margin-left: 30%;
+        margin-top: 100px;
+    }
+
+</style>
+
+<body>
+    <div class="center">
+        <div class="header"><h1>Прогноз погоды - <span id=city> </span></h1></div>
+            <div class="container">
+                <img id="img" />
+                <div id="weather"></div>
+                <div id="sunset"></div>
+                <div id="temp_min"></div>
+                <div id="temp_max"></div>
+                <div id="humidity"></div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
